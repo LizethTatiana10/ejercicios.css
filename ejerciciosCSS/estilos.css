@@ -1,0 +1,55 @@
+.menu{
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    padding-left: 80px;
+}
+.logo  > img{
+    width: 200px;
+}
+.enlaces > ul{
+    list-style: none;
+    margin-top: 30px;
+   position: absolute;
+   right: 100px;
+}
+.enlaces > ul > li{
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.logo, .enlaces{
+    display: inline-block;
+}
+.logo{
+    width: 20%;
+}
+.enlaces{
+    width: 80%;
+}
+.banner-principal{
+    width: 100%;
+    height: 800px;
+}
+.banner-principal > img{
+    width: 100%;
+    height: 100%;
+}
+.informacion{
+    width: 100%;
+    height: auto;
+}
+.tarjeta{
+    width: 400px;
+    height: 600px;
+    border: 2px solid rgba(216, 216, 216, 0.69);
+    padding: 20px;
+    margin: 30px;
+}
+.tarjeta img{
+    width: 100%;
+    height: 50%;
+}
